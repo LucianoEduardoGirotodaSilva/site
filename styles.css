@@ -1,0 +1,51 @@
+head{
+    justify-content:center;
+
+
+}
+
+body {
+    color: white;
+    background: rgb(26, 18, 2);
+    font-family: "Lucida Console", monospace;
+}
+
+header {
+    border-bottom:solid 2px rgb(245, 234, 234);
+    padding:20px;
+    font-size:32px;
+    color: rgb(253, 253, 253);
+    font-family: "Lucida Console", monospace;
+}
+section{
+    background: rgb(145, 35, 35);
+padding-top: 80px;
+padding-bottom: 80px;
+display:flex;
+justify-content:center;
+}
+
+.texto{
+margin-left: 20px;
+}
+h1{
+font-size: 40px;
+margin-right: 20px;
+}
+p{
+
+font-size: 20px;
+}
+
+.categoria{
+    padding: 20px;
+}
+    .categoria-videos{
+        opacity: 0,5;
+        height: 200px;
+    }
+    .categora-videos{
+        display:flex;
+        overflow:auto;
+        gap:20px;
+    }
